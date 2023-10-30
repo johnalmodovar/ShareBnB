@@ -1,0 +1,39 @@
+# ShareBnB
+
+A web application for sharing outdoor spaces.
+
+## Features
+
+- user login/registration authentication.
+- browse for available listings.
+- fully functioning search bar for location name.
+- `soon:` profile page to edit user details and view booked listings.
+- each listing includes details of outdoor space:
+  - name
+  - location
+  - user that posted the listing
+  - price
+  - description
+  - `soon:` space to message host to book listing
+
+## Front-End Stack
+
+![alt text](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![alt text](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+## Back-End Stack
+
+![alt text](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![alt text](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![alt text](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![alt text](https://img.shields.io/badge/json%20web%20tokens-323330?style=for-the-badge&logo=json-web-tokens&logoColor=pink)
+
+## Links
+
+- Website: `soon..`
+- Deployed Backend: `soon..`
+
+## Contributors
+
+- [John Almodovar](https://github.com/johnalmodovar)
+- [Megan Vyenielo](https://github.com/mvyenielo)
