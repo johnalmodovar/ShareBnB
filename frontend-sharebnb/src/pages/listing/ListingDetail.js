@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import SharebnbApi from "./api";
+import SharebnbApi from "../../utilities/api";
 import { Card, CardBody } from "reactstrap";
 
 import "./ListingDetail.css";

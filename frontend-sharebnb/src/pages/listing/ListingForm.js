@@ -1,8 +1,8 @@
 import React, { useState, useContext } from 'react';
-import userContext from './userContext';
+import userContext from '../../utilities/userContext';
 import FormData from "form-data";
 import { useNavigate } from 'react-router-dom';
-import Alert from './Alert';
+import Alert from '../../components/alert/Alert';
 import { Card, CardBody } from "reactstrap";
 
 import "./ListingForm.css";

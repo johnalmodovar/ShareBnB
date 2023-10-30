@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import userContext from "./userContext";
+import userContext from "../../utilities/userContext";
 import { Link } from "react-router-dom";
 import { Card, CardBody, CardText } from "reactstrap";
 import "./Homepage.css";

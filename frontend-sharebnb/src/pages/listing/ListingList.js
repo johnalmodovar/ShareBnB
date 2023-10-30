@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import './ListingList.css';
 
-import SearchForm from "./SearchForm";
-import SharebnbApi from "./api";
-import ListingCard from "./ListingCard";
+import SearchForm from "../../components/form/SearchForm";
+import SharebnbApi from "../../utilities/api";
+import ListingCard from "../../components/listing/ListingCard";
 
 /** Renders list of listings.
  *

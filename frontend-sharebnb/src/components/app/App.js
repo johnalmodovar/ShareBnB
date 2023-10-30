@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter, Routes } from "react-router-dom";
 import jwtDecode from "jwt-decode";
-import SharebnbApi from "./api";
-import userContext from "./userContext";
+import SharebnbApi from "../../utilities/api";
+import userContext from "../../utilities/userContext";
 
 import 'bootswatch/dist/litera/bootstrap.min.css';
 import './App.css';
 
-import Nav from "./Nav";
-import RoutesList from "./RoutesList";
+import Nav from "../nav/Nav";
+import RoutesList from "../../RoutesList";
 
 
 /** Main App component for Sharebnb.

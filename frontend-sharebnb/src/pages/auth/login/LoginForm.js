@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Alert from "./Alert";
+import Alert from "../../../components/alert/Alert";
 import { Card, CardBody, CardText } from "reactstrap";
 
 import "./LoginForm.css";

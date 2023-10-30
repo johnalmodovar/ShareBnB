@@ -1,14 +1,14 @@
 import React, { useContext } from "react";
 import { Routes, Route } from "react-router-dom";
 
-import Homepage from "./Homepage";
-import LoginForm from "./LoginForm";
-import SignupForm from "./SignupForm";
-import ListingList from "./ListingList";
-import ListingDetail from "./ListingDetail";
-import userContext from "./userContext";
+import Homepage from "./pages/homepage/Homepage";
+import LoginForm from "./pages/auth/login/LoginForm";
+import SignupForm from "./pages/auth/signup/SignupForm";
+import ListingList from "./pages/listing/ListingList";
+import ListingDetail from "./pages/listing/ListingDetail";
+import ListingForm from "./pages/listing/ListingForm";
+import userContext from "./utilities/userContext";
 import { Navigate } from "react-router-dom";
-import ListingForm from "./ListingForm";
 
 /** RoutesList for Sharebnb.
  *
