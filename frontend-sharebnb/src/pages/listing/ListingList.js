@@ -36,7 +36,7 @@ function ListingList() {
 
   return (
     <div className="ListingList">
-      <div className="ListingList-search">
+      <div className="ListingList-search d-flex flex-column justify-content-center">
         <SearchForm search={search} />
       </div>
 
