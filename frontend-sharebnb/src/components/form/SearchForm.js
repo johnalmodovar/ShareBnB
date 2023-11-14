@@ -24,7 +24,7 @@ function SearchForm({ search }) {
 
   //TODO: if no matches, return an element that tells user there are no matches.
   return (
-    <div className="SearchForm mt-3 w-50">
+    <div className="SearchForm mt-3">
       <form className="d-flex" onSubmit={handleSubmit}>
         <input
           className="form-control mx-3"
