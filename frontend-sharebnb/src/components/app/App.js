@@ -4,7 +4,7 @@ import jwtDecode from "jwt-decode";
 import SharebnbApi from "../../utilities/api";
 import userContext from "../../utilities/userContext";
 
-import 'bootswatch/dist/litera/bootstrap.min.css';
+import 'bootswatch/dist/minty/bootstrap.min.css';
 import './App.css';
 
 import Nav from "../nav/Nav";
