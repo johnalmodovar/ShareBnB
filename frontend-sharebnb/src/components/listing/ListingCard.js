@@ -18,7 +18,10 @@ function ListingCard({ listing }) {
     <div className="ListingCard container col card my-2 p-3 d-flex shadow p-3 mb-5 bg-white rounded">
       <div className="card-body">
         <div className="mb-5">
-          <img src={listing.photoUrl} style={{ width: "300px", height: "175px" }} />
+          <img
+            src={listing.photoUrl}
+            alt={`${listing.title} image`}
+            style={{ width: "300px", height: "175px" }} />
         </div>
         <div>
           <h3>{listing.title}</h3>
