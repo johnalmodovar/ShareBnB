@@ -17,6 +17,7 @@ function Homepage() {
     <div className="Homepage">
       <img
         src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fd02d7d5-97d7-481d-a81f-06f546c0c7fb/dc89ogq-ad89e101-0c78-4a37-a573-9cb80311aa03.png/v1/fill/w_1032,h_774,q_70,strp/background__generic_outdoor_scene_1_by_kindheart525_dc89ogq-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTUzNiIsInBhdGgiOiJcL2ZcL2ZkMDJkN2Q1LTk3ZDctNDgxZC1hODFmLTA2ZjU0NmMwYzdmYlwvZGM4OW9ncS1hZDg5ZTEwMS0wYzc4LTRhMzctYTU3My05Y2I4MDMxMWFhMDMucG5nIiwid2lkdGgiOiI8PTIwNDgifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.GJaeJbs8m58r7ioVCDIWfkNYdIqkbCVl-j3MGL4T9KM"
+        alt="sharebnb image"
         width="200px"
         className="mt-5"
       />
