@@ -20,7 +20,7 @@ function ListingCard({ listing }) {
         <div className="mb-5">
           <img
             src={listing.photoUrl}
-            alt={`${listing.title} image`}
+            alt={`${listing.title}`}
             style={{ width: "300px", height: "175px" }} />
         </div>
         <div>

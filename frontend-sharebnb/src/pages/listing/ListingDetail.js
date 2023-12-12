@@ -35,7 +35,7 @@ function ListingDetail() {
       <div className="col m-5 d-flex justify-content-center">
         <img
           src={listing.photoUrl}
-          alt={`${listing.title} image`}
+          alt={`${listing.title}`}
           className="ListingDetail-img"
           width="500px" />
       </div>
