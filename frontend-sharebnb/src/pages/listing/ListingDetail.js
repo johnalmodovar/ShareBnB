@@ -33,24 +33,24 @@ function ListingDetail() {
 
   return (
     <div className="ListingDetail container">
-      <div className="ListingDetail-card">
-        <CardBody className="ListingDetail-body">
-          <img src={listing.photoUrl} className="ListingDetail-img" width="500px" />
-          <h2>{listing.title}</h2>
-          <h4>{listing.location}</h4>
-          <p><h5>Host:</h5> {listing.listedBy}</p>
-          <p><h5>Price:</h5> ${listing.price}</p>
-          <p><h5>Description:</h5>{listing.description}</p>
-        </CardBody>
-        <div>
-          <form>
-            <h4>Message the host!</h4>
-            <textarea />
-            <div className="m-2">
-              <button className="btn btn-success">Send</button>
-            </div>
-          </form>
-        </div>
+      <div className="col m-5 d-flex justify-content-center">
+        <img src={listing.photoUrl} className="ListingDetail-img" width="500px" />
+      </div>
+
+      <div className="container col card my-2 p-3 d-flex shadow p-3 mb-5 bg-white rounded">
+        <h2>{listing.title}</h2>
+        <h4>{listing.location}</h4>
+        <p><h5>Host:</h5> {listing.listedBy}</p>
+        <p><h5>Price:</h5> ${listing.price}</p>
+        <p><h5>Description:</h5>{listing.description}</p>
+
+        <form>
+          <h4>Message the host!</h4>
+          <textarea style={{ width: "50%" }} />
+          <div className="m-2">
+            <button className="btn btn-success">Send</button>
+          </div>
+        </form>
       </div>
     </div >
   );
