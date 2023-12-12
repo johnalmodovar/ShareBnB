@@ -15,14 +15,18 @@ import "./ListingCard.css";
 
 function ListingCard({ listing }) {
   return (
-    <Card className="ListingCard card shadow p-3 mb-5 bg-white rounded">
-      <CardBody className="card-body">
-        <img src={listing.photoUrl} width="400px" />
-        <CardTitle><h3>{listing.title}</h3></CardTitle>
-        <CardText>{listing.location}</CardText>
-        <CardText>${listing.price}</CardText>
-      </CardBody>
-    </Card>
+    <div className="ListingCard container col card my-2 p-3 d-flex shadow p-3 mb-5 bg-white rounded">
+      <div className="card-body">
+        <div className="mb-5">
+          <img src={listing.photoUrl} style={{ width: "300px", height: "175px" }} />
+        </div>
+        <div>
+          <h3>{listing.title}</h3>
+        </div>
+        <div>{listing.location}</div>
+        <div>${listing.price}</div>
+      </div>
+    </div>
   );
 }
 
