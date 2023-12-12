@@ -77,7 +77,7 @@ function ListingForm({ upload }) {
 
   return (
     <div className="ListingForm">
-      <Card className="ListingForm-card">
+      <Card className="ListingForm-card shadow p-3 mb-5 bg-white rounded">
         <CardBody>
           <h2>Add Listing</h2>
           <form onSubmit={handleSubmit}>

@@ -59,7 +59,7 @@ function LoginForm({ login }) {
   return (
 
     <div className="LoginForm">
-      <Card className="LoginForm-card">
+      <Card className="LoginForm-card shadow p-3 mb-5 bg-white rounded">
         <CardBody>
           <h2>Log In</h2>
           <form onSubmit={handleSubmit}>

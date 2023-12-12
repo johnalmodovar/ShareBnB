@@ -54,7 +54,7 @@ function SignupForm({ signup }) {
 
   return (
     <div className="SignupForm">
-      <Card className="SignupForm-card">
+      <Card className="SignupForm-card shadow p-3 mb-5 bg-white rounded">
         <CardBody>
           <h2>Register</h2>
           <form onSubmit={handleSubmit}>

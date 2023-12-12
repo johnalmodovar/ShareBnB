@@ -15,7 +15,7 @@ import "./ListingCard.css";
 
 function ListingCard({ listing }) {
   return (
-    <Card className="ListingCard card">
+    <Card className="ListingCard card shadow p-3 mb-5 bg-white rounded">
       <CardBody className="card-body">
         <img src={listing.photoUrl} width="400px" />
         <CardTitle><h3>{listing.title}</h3></CardTitle>
