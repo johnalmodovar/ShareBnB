@@ -4,10 +4,9 @@ A web application for sharing outdoor spaces.
 
 ## Features
 
-- user login/registration authentication.
+- user authentication and authorization.
 - browse for available listings.
 - fully functioning search bar for location name.
-- `soon:` profile page to edit user details and view booked listings.
 - each listing includes details of outdoor space:
   - name
   - location
@@ -29,10 +28,21 @@ A web application for sharing outdoor spaces.
 ![alt text](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![alt text](https://img.shields.io/badge/json%20web%20tokens-323330?style=for-the-badge&logo=json-web-tokens&logoColor=pink)
 
-## Links
+## Deployed Page
 
-- Website: `soon..`
-- Deployed Backend: `soon..`
+https://sharebnb.johnalmodovar.com/
+
+## Run Locally
+
+Make sure to run backend server before starting frontend server.
+
+#### To Run Backend:
+1. Switch to backend-sharebnb directory
+2. run `npm start`
+
+#### To Run Frontend:
+1. Switch to frontend-sharebnb directory
+2. run `npm start`
 
 ## Contributors
 
