@@ -33,7 +33,11 @@ function ListingDetail() {
   return (
     <div className="ListingDetail container">
       <div className="col m-5 d-flex justify-content-center">
-        <img src={listing.photoUrl} className="ListingDetail-img" width="500px" />
+        <img
+          src={listing.photoUrl}
+          alt={`${listing.title} image`}
+          className="ListingDetail-img"
+          width="500px" />
       </div>
 
       <div className="container col card my-2 p-3 d-flex shadow p-3 mb-5 bg-white rounded">
