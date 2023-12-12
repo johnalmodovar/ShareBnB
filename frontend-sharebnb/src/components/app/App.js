@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter, Routes } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import jwtDecode from "jwt-decode";
 import SharebnbApi from "../../utilities/api";
 import userContext from "../../utilities/userContext";
@@ -86,13 +86,13 @@ function App() {
     const listing = await SharebnbApi.addListing(formData);
   }
 
-  //TODO: if there's time, create spinner component and render here.
+  /** Protects whole app when fetching current user. */
   if (!isLoaded) return <h1>Sharebnb Loading...</h1>;
 
   return (
     <div className="App">
-      <userContext.Provider value={{ currentUser }}>
-        <BrowserRouter>
+      <BrowserRouter>
+        <userContext.Provider value={{ currentUser }}>
           <Nav logout={logout} />
           <RoutesList
             login={login}
@@ -100,8 +100,8 @@ function App() {
             logout={logout}
             upload={upload}
           />
-        </BrowserRouter>
-      </userContext.Provider>
+        </userContext.Provider>
+      </BrowserRouter>
     </div>
   );
 }
