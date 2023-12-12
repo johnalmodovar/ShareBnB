@@ -21,7 +21,7 @@ function Nav({ logout }) {
         <NavLink className="Nav-Link d-inline justify-content-end" to="/listings">Listings</NavLink>
         {currentUser
           ? <>
-            <NavLink className="Nav-Link" to="/upload">Add a Listing</NavLink>
+            <NavLink className="Nav-Link" to="/upload">Add Listing</NavLink>
             <Link className="Nav-Link" to="/" onClick={logout}>Logout</Link>
           </>
           : <>
