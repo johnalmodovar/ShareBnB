@@ -32,29 +32,28 @@ function ListingDetail() {
   if (!listing) return <h1>Loading...</h1>;
 
   return (
-    <div className="ListingDetail">
-      <Card className="ListingDetail-card">
+    <div className="ListingDetail container">
+      <div className="ListingDetail-card">
         <CardBody className="ListingDetail-body">
           <img src={listing.photoUrl} className="ListingDetail-img" width="500px" />
           <h2>{listing.title}</h2>
           <h4>{listing.location}</h4>
-          <p><b>Host:</b> {listing.listedBy}</p>
-          <p><b>Price:</b> ${listing.price}</p>
-          <p><b>Description:</b> {listing.description}</p>
+          <p><h5>Host:</h5> {listing.listedBy}</p>
+          <p><h5>Price:</h5> ${listing.price}</p>
+          <p><h5>Description:</h5>{listing.description}</p>
         </CardBody>
         <div>
           <form>
             <h4>Message the host!</h4>
             <textarea />
-            <div>
+            <div className="m-2">
               <button className="btn btn-success">Send</button>
             </div>
           </form>
         </div>
-      </Card>
+      </div>
     </div >
   );
-
 }
 
 export default ListingDetail;
