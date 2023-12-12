@@ -15,19 +15,20 @@ function Nav({ logout }) {
   const { currentUser } = useContext(userContext);
 
   return (
-    <nav className="Nav">
+    <nav className="Nav navbar border-bottom px-4 mb-4">
       <Link className="Nav-heading" to="/">ShareBnB</Link>
-      <NavLink className="Nav-Link" to="/listings">Listings</NavLink>
-
-      {currentUser
-        ? <div>
-          <NavLink className="Nav-Link" to="/upload">Add a Listing</NavLink>
-          <Link className="Nav-Link" to="/" onClick={logout}>Logout</Link>
-        </div>
-        : <div>
-          <NavLink className="Nav-Link" to="/login">Login</NavLink>
-          <NavLink className="Nav-Link" to="/signup">Signup</NavLink>
-        </div>}
+      <div className="d-inline justify-content-end">
+        <NavLink className="Nav-Link d-inline justify-content-end" to="/listings">Listings</NavLink>
+        {currentUser
+          ? <>
+            <NavLink className="Nav-Link" to="/upload">Add a Listing</NavLink>
+            <Link className="Nav-Link" to="/" onClick={logout}>Logout</Link>
+          </>
+          : <>
+            <NavLink className="Nav-Link" to="/login">Login</NavLink>
+            <NavLink className="Nav-Link" to="/signup">Signup</NavLink>
+          </>}
+      </div>
     </nav>
   );
 }
