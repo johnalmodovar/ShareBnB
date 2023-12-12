@@ -17,7 +17,6 @@ import RoutesList from "../../RoutesList";
  * - currentUser: { username, firstName, lastName, email, phone }
  * - token: { token }
  * - isLoaded: boolean to check if data has been fetched.
- * - listings: TODO:
  *
  * App -> { Nav, RoutesList }
  */
