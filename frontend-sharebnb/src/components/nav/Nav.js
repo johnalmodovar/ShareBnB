@@ -15,7 +15,7 @@ function Nav({ logout }) {
   const { currentUser } = useContext(userContext);
 
   return (
-    <nav className="Nav navbar border-bottom px-4 mb-4">
+    <nav className="Nav navbar px-4 mb-4" data-bs-theme="dark">
       <Link className="Nav-heading" to="/">ShareBnB</Link>
       <div className="d-inline justify-content-end">
         <NavLink className="Nav-Link d-inline justify-content-end" to="/listings">Listings</NavLink>
