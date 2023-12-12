@@ -82,7 +82,7 @@ function App() {
 
   /** handles file submission for listings. */
   async function upload(formData) {
-    const listing = await SharebnbApi.addListing(formData);
+    await SharebnbApi.addListing(formData);
   }
 
   /** Protects whole app when fetching current user. */
