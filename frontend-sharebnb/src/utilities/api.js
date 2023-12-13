@@ -1,4 +1,7 @@
-const BASE_URL = process.env.REACT_APP_BASE_URL;
+const BASE_URL = (
+  process.env.REACT_APP_BASE_URL
+  || "https://sharebnb-backend.onrender.com"
+  || "http://localhost:3001");
 
 /** Class for API methods. */
 
